@@ -365,7 +365,22 @@ footer {
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
+
+  body{
+    width: 40%;
+  }
+  .information-me{
+    width:70%;
+  }
+  header{
+    width: 100%;
+  }
+
+  .wave{
+    width: 100%;
+  }
+  
   .experience-item{
     width: 90%;
   }
@@ -386,13 +401,5 @@ footer {
 
   .item-skill{
     width: 92%;
-  }
-
-  .wave{
-    width: 100%;
-  }
-
-  header{
-    width: 100%;
   }
 }
