@@ -287,6 +287,7 @@ footer {
   color: white;
 }
 
+
 @media (max-width: 1200px) {
   
   .information-skills{
@@ -324,45 +325,6 @@ footer {
 
 
 
-@media (max-width: 375px) {
-  .information-me{
-    width:70%;
-  }
-  header{
-    width: 100%;
-  }
-
-  .wave{
-    width: 100%;
-  }
-
-  .experience-left , .experience-right{
-    width: 42%;
-  }
-  
-  .line{
-    height: 190px;
-    margin-top: -130px;
-  }
-
-  .line.last {
-    margin-top: -151px;
-    height: 210px;
-  }
-
-  .profile > h1{
-    padding: 9px;
-  }
-
-  .item-skill{
-    width: 90%;
-  }
-
-  .contacto{
-    font-size: 70%;
-    width: 70%;
-  }
-}
 
 
 @media (max-width: 600px) {
@@ -388,7 +350,7 @@ footer {
 
   .line{
     height: 184px;
-    margin-top: -102px;
+    margin-top: -107px;
   }
 
   .line.last{
@@ -404,3 +366,121 @@ footer {
     width: 94%;
   }
 }
+
+@media (max-width:382px){
+  .line{
+    height: 196px;
+    margin-top: -136px;
+  }
+
+  .line.last{
+    margin-top: -169px;
+    height: 231px;
+  }
+
+}
+
+@media (max-width: 455px) {
+  .information-me{
+    width:70%;
+  }
+  header{
+    width: 100%;
+  }
+
+  .wave{
+    width: 100%;
+  }
+
+  .experience-left , .experience-right{
+    width: 42%;
+  }
+  
+  .experience-item{
+    width: 90%;
+  }
+
+  .circle{
+    padding: 7px;
+  }
+
+  .line{
+    height: 196px;
+    margin-top: -136px;
+  }
+
+  .line.last{
+    margin-top: -169px;
+    height: 212px;
+  }
+
+  .item-skill{
+    width: 92%;
+  }
+
+  .contacto{
+    width: 94%;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .line{
+    height: 256px;
+    margin-top: -140px;
+  }
+
+  
+  .information-me{
+    width:70%;
+  }
+  header{
+    width: 100%;
+  }
+
+  .wave{
+    width: 100%;
+  }
+
+  .experience-left , .experience-right{
+    width: 42%;
+  }
+  
+  
+  .line.last {
+    margin-top: -210px;
+    height: 288px;
+  }
+
+  .profile > h1{
+    padding: 9px;
+  }
+
+  .item-skill{
+    width: 90%;
+  }
+
+  .contacto{
+    font-size: 70%;
+    width: 70%;
+  }
+}
+
+@media (max-width:354px){
+
+  .line{
+    margin-top: -146px;
+  }
+
+}
+
+@media (max-width:328px){
+  .line{
+    margin-top: -180px;
+  }
+
+  .experience-left , .experience-right{
+    width: 40%;
+  }
+}
+
