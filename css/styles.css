@@ -367,7 +367,7 @@ footer {
   }
 }
 
-@media (max-width:382px){
+@media (max-width:385px){
   .line{
     height: 196px;
     margin-top: -136px;
@@ -376,6 +376,10 @@ footer {
   .line.last{
     margin-top: -169px;
     height: 231px;
+  }
+
+  .profile > h1{
+    text-align: center;
   }
 
 }
@@ -419,7 +423,7 @@ footer {
   }
 
   .contacto{
-    width: 94%;
+    width: 98%;
   }
 }
 
@@ -462,7 +466,7 @@ footer {
 
   .contacto{
     font-size: 70%;
-    width: 70%;
+    width: 81%;
   }
 }
 
