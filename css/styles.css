@@ -365,11 +365,8 @@ footer {
 }
 
 
-@media (max-width: 500px) {
-
-  body{
-    width: 40%;
-  }
+@media (max-width: 600px) {
+ 
   .information-me{
     width:70%;
   }
@@ -391,7 +388,7 @@ footer {
 
   .line{
     height: 184px;
-    margin-top: -126px;
+    margin-top: -102px;
   }
 
   .line.last{
@@ -401,5 +398,9 @@ footer {
 
   .item-skill{
     width: 92%;
+  }
+
+  .contacto{
+    width: 94%;
   }
 }
