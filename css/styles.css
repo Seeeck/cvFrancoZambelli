@@ -322,6 +322,8 @@ footer {
   }
 }
 
+
+
 @media (max-width: 375px) {
   .information-me{
     width:70%;
@@ -362,3 +364,35 @@ footer {
   }
 }
 
+
+@media (max-width: 414px) {
+  .experience-item{
+    width: 90%;
+  }
+
+  .circle{
+    padding: 7px;
+  }
+
+  .line{
+    height: 184px;
+    margin-top: -126px;
+  }
+
+  .line.last{
+    margin-top: -152px;
+    height: 212px;
+  }
+
+  .item-skill{
+    width: 92%;
+  }
+
+  .wave{
+    width: 100%;
+  }
+
+  header{
+    width: 100%;
+  }
+}
